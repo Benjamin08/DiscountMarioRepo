@@ -46,7 +46,11 @@ MonoBehaviour:
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 109
+=======
+  controlID: 9
+>>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
 =======
   controlID: 9
 >>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
@@ -68,10 +72,13 @@ MonoBehaviour:
     y: 0
     width: 389
 <<<<<<< HEAD
+<<<<<<< HEAD
     height: 939
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
 =======
+=======
+>>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
     height: 947
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -220,7 +227,11 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 71
+=======
+  controlID: 10
+>>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
 =======
   controlID: 10
 >>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
@@ -248,7 +259,11 @@ MonoBehaviour:
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 51
+=======
+  controlID: 11
+>>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
 =======
   controlID: 11
 >>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
@@ -348,7 +363,11 @@ MonoBehaviour:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\Colby\Desktop\DiscountMarioRepo\Discount Mario
+=======
+  m_LastProjectPath: C:\Users\Nick_L\Documents\GitHub\DiscountMarioRepo\Discount Mario
+>>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
 =======
   m_LastProjectPath: C:\Users\Nick_L\Documents\GitHub\DiscountMarioRepo\Discount Mario
 >>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
@@ -357,9 +376,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: c6080000
     m_LastClickedID: 2246
     m_ExpandedIDs: 00000000c608000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: a4290000
+    m_LastClickedID: 10660
+    m_ExpandedIDs: 000000008029000000ca9a3bffffff7f
+>>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
 =======
     m_SelectedIDs: a4290000
     m_LastClickedID: 10660
@@ -393,7 +418,11 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c6080000
+=======
+    m_ExpandedIDs: 0000000080290000
+>>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
 =======
     m_ExpandedIDs: 0000000080290000
 >>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
@@ -513,9 +542,15 @@ MonoBehaviour:
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: ea080000
     m_LastClickedID: 0
     m_ExpandedIDs: 86f5ffffe6fbffff000000008a0b0000900b0000
+=======
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: c2fbffff00000000
+>>>>>>> a5958c47957f896ba3d7c042efad9e70c0664db5
 =======
     m_SelectedIDs: 
     m_LastClickedID: 0
