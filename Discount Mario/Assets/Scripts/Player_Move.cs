@@ -6,8 +6,8 @@ public class Player_Move : MonoBehaviour
 {
 
 
-    public int playerSpeed = 10;
-    private bool facingRight = true;
+    public int playerSpeed = 5;
+    private bool facingRight = false;
     public int playerJumpPower = 125;
     private float moveX;
 
@@ -15,7 +15,7 @@ public class Player_Move : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        FlipPlayer();
     }
 
     // Update is called once per frame
@@ -45,8 +45,6 @@ public class Player_Move : MonoBehaviour
 
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
     }
-
-
 
     void FlipPlayer()
     {

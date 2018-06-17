@@ -4,8 +4,6 @@
 -langversion:4
 -out:Temp/Assembly-CSharp.dll
 -nostdlib
--r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
--r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 -r:D:\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll
 -r:D:\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll
 -r:D:\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll
@@ -66,6 +64,8 @@
 -r:D:\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll
 -r:D:\Unity\Editor\Data\Managed/UnityEditor.dll
 -r:D:\Unity\Editor\Data\Managed/Unity.Locator.dll
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 -r:D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
 -r:D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 -r:D:/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
@@ -184,5 +184,7 @@
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
 Assets/Scenes/Skin_Controller.cs
+Assets/Scripts/cameraFollowScript.cs
+Assets/Scripts/Player_Health.cs
 Assets/Scripts/Player_Move.cs
 -lib:D:\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity

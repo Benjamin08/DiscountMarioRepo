@@ -183,5 +183,6 @@
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
 Assets/Scenes/Skin_Controller.cs
+Assets/Scripts/Player_Health.cs
 Assets/Scripts/Player_Move.cs
 -lib:D:\Unity\Editor\Data\MonoBleedingEdge\lib\mono\unity
