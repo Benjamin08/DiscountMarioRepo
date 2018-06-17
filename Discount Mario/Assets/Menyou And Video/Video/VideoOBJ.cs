@@ -26,7 +26,7 @@ public class VideoOBJ : MonoBehaviour {
 
         if (videoPlayer.isPlaying == false)
         {
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
 
         }
