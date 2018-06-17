@@ -6,16 +6,18 @@ public class Player_Move : MonoBehaviour
 {
 
 
-    public int playerSpeed = 5;
+    public int playerSpeed = 1;
     private bool facingRight = false;
     public int playerJumpPower = 125;
     private float moveX;
 
+	private Animator anim;
 
     // Use this for initialization
     void Start()
     {
         FlipPlayer();
+		anim = this.gameObject.transform.GetChild(0).gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,6 +25,7 @@ public class Player_Move : MonoBehaviour
     {
         PlayerMove();
 
+		anim.SetFloat("moveX", moveX);
     }
 
     void PlayerMove()
@@ -40,7 +43,6 @@ public class Player_Move : MonoBehaviour
         else if (moveX > 0.0f && facingRight == true)
         {
             FlipPlayer();
-
         }
 
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
