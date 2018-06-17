@@ -29,7 +29,7 @@ public class Player_Health : MonoBehaviour {
     IEnumerator Die()
     {
         yield return new WaitForSecondsRealtime(2);
-        SceneManager.LoadScene("1-1");
+        SceneManager.LoadScene("Alex Test Scene");
 
     }
 }
