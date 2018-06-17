@@ -9,7 +9,7 @@ public class Player_Move : MonoBehaviour
     public int playerSpeed = 1;
     private bool facingRight = false;
     public int playerJumpPower = 125;
-    private float moveX;
+    public float moveX;
 
 	private Animator anim;
 
@@ -24,8 +24,6 @@ public class Player_Move : MonoBehaviour
     void Update()
     {
         PlayerMove();
-
-		anim.SetFloat("moveX", moveX);
     }
 
     void PlayerMove()
@@ -39,11 +37,15 @@ public class Player_Move : MonoBehaviour
         if (moveX < 0.0f && facingRight == false)
         {
             FlipPlayer();
+			anim.SetBool("Moving", true);
         }
         else if (moveX > 0.0f && facingRight == true)
         {
             FlipPlayer();
+			anim.SetBool("Moving", true);
         }
+		//else if(moveX == 0)
+		//	anim.SetBool("Moving", false);
 
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
     }
