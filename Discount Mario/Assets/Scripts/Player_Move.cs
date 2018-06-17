@@ -37,15 +37,16 @@ public class Player_Move : MonoBehaviour
         if (moveX < 0.0f && facingRight == false)
         {
             FlipPlayer();
-			anim.SetBool("Moving", true);
+			anim.SetBool("isStopped", false);
         }
         else if (moveX > 0.0f && facingRight == true)
         {
             FlipPlayer();
-			anim.SetBool("Moving", true);
+			anim.SetBool("isStopped", false);
         }
-		//else if(moveX == 0)
-		//	anim.SetBool("Moving", false);
+
+		else if(moveX == 0)
+			anim.SetBool("isStopped", true);
 
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
     }
