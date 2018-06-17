@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Colbys Scripts\Brick.cs" />
     <Compile Include="Assets\Scenes\Skin_Controller.cs" />
     <Compile Include="Assets\Scripts\cameraFollowScript.cs" />
     <Compile Include="Assets\Scripts\Player_Health.cs" />
